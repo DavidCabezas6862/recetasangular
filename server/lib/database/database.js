@@ -4,7 +4,5 @@ import Sequelize from "sequelize";
 
 export const sequelize = new Sequelize("recetasdb", "postgres", "teamodunia1", {
   host: "localhost",
-  dialect: "postgres",
+  dialect: "postgres"
 });
-
-
