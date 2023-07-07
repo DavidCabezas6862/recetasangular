@@ -6,5 +6,3 @@ export const sequelize = new Sequelize("recetasdb", "postgres", "backend", {
   host: "localhost",
   dialect: "postgres",
 });
-
-
