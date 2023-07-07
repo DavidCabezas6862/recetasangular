@@ -152,6 +152,7 @@ export class RecetasComponent implements OnInit {
     });
   }
 
+
   getRecetaId(id: number) {
     console.log('id de la receta obtenida: ', id);
     this.srvRecetas.getRecetaId(id) //Llama al servicio para obtener la información de una receta mediante el id
